@@ -4,9 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
-  },
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamal-gith/kooshie.git"
@@ -20,6 +24,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.1",
+    "serve": "^11.3.2",
     "socket.io": "^4.1.1"
   },
   "devDependencies": {
