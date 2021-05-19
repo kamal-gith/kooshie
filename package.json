@@ -2,7 +2,11 @@
   "name": "kooshie",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "12.11.1"},
   "main": "server.js",
+
+  
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
