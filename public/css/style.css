@@ -49,6 +49,10 @@ a {
 .room-name h2{
     color: #147714;
 }
+
+h6 i{
+	color: #e24540;
+}
 .chat-header {
 	background: var(--dark-color-a);
 	color: rgb(128, 54, 54);
