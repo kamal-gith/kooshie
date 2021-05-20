@@ -51,13 +51,14 @@ a {
 }
 .chat-header {
 	background: var(--dark-color-a);
-	color: #fff;
+	color: rgb(128, 54, 54);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-size: 6px;
 }
 
 .chat-main {
