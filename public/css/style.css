@@ -53,6 +53,9 @@ a {
 h6 i{
 	color: #e24540;
 }
+h1 i{
+	color: #147714;
+}
 .chat-header {
 	background: var(--dark-color-a);
 	color: rgb(128, 54, 54);
