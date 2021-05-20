@@ -27,7 +27,12 @@ ul {
 
 a {
 	text-decoration: none;
+	color: red;
 }
+.leave-room a{
+	color: red;
+}
+
 
 .btn {
 	cursor: pointer;
